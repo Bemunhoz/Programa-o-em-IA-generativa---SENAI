@@ -1,30 +1,30 @@
 import streamlit as st
 
-st.title('Calculadora')
-st.caption ('colocar um numero depois outro numero e escolher a operacao e ver o resutado')
+#st.title('Calculadora')
+#st.caption ('colocar um numero depois outro numero e escolher a operacao e ver o resutado')
 
-n1 = st.number_input('primeiro número')
-n2 = st.number_input('segundo número')
-valor = n1 + n2
-st.caption (valor)
+#n1 = st.number_input('primeiro número')
+#n2 = st.number_input('segundo número')
+#valor = n1 + n2
+#st.caption (valor)
 
-escolha = st.selectbox ('escolha a operação:', ['+','-','*','/'])
+#escolha = st.selectbox ('escolha a operação:', ['+','-','*','/'])
 
-if st.button('calcular'):
-    if escolha == '+':
-        soma = n1 + n2
-        resultado = soma
-    elif escolha == '-':
-       sub = n1 - n2
-       resultado = sub   
-    elif escolha == '*':
-        mult = n1 * n2
-        resultado = mult  
-    elif escolha == '/':
-        div = n1 / n2
-        resultado = div  
+#if st.button('calcular'):
+ #   if escolha == '+':
+  #      soma = n1 + n2
+   #     resultado = soma
+    #elif escolha == '-':
+     #  sub = n1 - n2
+      # resultado = sub   
+    #elif escolha == '*':
+     #   mult = n1 * n2
+      #  resultado = mult  
+    #elif escolha == '/':
+     #   div = n1 / n2
+      #  resultado = div  
 
-st.success(resultado)
+#st.success(resultado)
 
 #----------------------ignorar
  
